@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+    form
+    </title>
+</head>
+<body>
+<h2>Small Form to check loan approval</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{form|linebreaks}}
+    <button type="submit">submit</button>
+</form>
+{% if messages %}
+<ul class="messages">
+{% for i in messages %}
+<li {% if i.tags %} class="{{i.tags}}" {% endif %} >
+{{i}}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+</body>
+</html>
