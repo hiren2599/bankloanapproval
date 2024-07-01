@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Bank Loan Approval project is a machine learning application designed to predict the likelihood of loan approval based on various applicant details. This project aims to assist banks and financial institutions in automating the loan approval process, reducing manual efforts, and minimizing the risk of default by evaluating the creditworthiness of applicants. It takes into account following parameters to decide Loan Application Approval:
+The Bank Loan Approval project is a machine learning application designed to predict the likelihood of loan approval based on various applicant details. This project aims to assist banks and financial institutions in automating the loan approval process, reducing manual efforts, and minimizing the risk of default by evaluating the creditworthiness of applicants. It takes into account the following parameters to decide on Loan Application Approval:
 - Gender
 - Married
 - Dependents
@@ -61,7 +61,3 @@ The dataset used in this project is sourced from the bankloan.csv file attached.
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-This description provides a comprehensive overview of your project, its features, technologies, and instructions for getting started. Adjust any details as needed to fit your specific project.
